@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>563EEA2B-A205-4CD6-B666-948A89AAC381</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MarBus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E9EE5AAA6198C529E37BA3A35D293EB28BE42152</key>
+		<string>https://github.com/lewis180777/-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MarBus/MarBus.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E9EE5AAA6198C529E37BA3A35D293EB28BE42152</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lewis180777/-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E9EE5AAA6198C529E37BA3A35D293EB28BE42152</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E9EE5AAA6198C529E37BA3A35D293EB28BE42152</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E7%BB%93%E5%A9%9A%E5%B7%B4%E5%A3%AB</string>
+		</dict>
+	</array>
+</dict>
+</plist>

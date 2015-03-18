@@ -13,6 +13,7 @@
 		85A800A11AA49B4300098C52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A8009F1AA49B4300098C52 /* LaunchScreen.xib */; };
 		85A800AD1AA49B4300098C52 /* MarBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A800AC1AA49B4300098C52 /* MarBusTests.m */; };
 		85A800B91AA49FEC00098C52 /* AppRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A800B81AA49FEC00098C52 /* AppRootViewController.m */; };
+		85F79DCD1AB91BCE00686BB2 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F79DCC1AB91BCE00686BB2 /* TestViewController.m */; };
 		B5B6520519F4EB8A6DEA2896 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7013B2AC8740415E9552B75 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,8 @@
 		85A800B61AA49CA100098C52 /* MarBus_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarBus_PrefixHeader.pch; sourceTree = "<group>"; };
 		85A800B71AA49FEC00098C52 /* AppRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRootViewController.h; sourceTree = "<group>"; };
 		85A800B81AA49FEC00098C52 /* AppRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRootViewController.m; sourceTree = "<group>"; };
+		85F79DCB1AB91BCE00686BB2 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		85F79DCC1AB91BCE00686BB2 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		B7013B2AC8740415E9552B75 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +111,8 @@
 				85A800951AA49B4300098C52 /* AppDelegate.m */,
 				85A800B71AA49FEC00098C52 /* AppRootViewController.h */,
 				85A800B81AA49FEC00098C52 /* AppRootViewController.m */,
+				85F79DCB1AB91BCE00686BB2 /* TestViewController.h */,
+				85F79DCC1AB91BCE00686BB2 /* TestViewController.m */,
 				85A8009D1AA49B4300098C52 /* Images.xcassets */,
 				85A8009F1AA49B4300098C52 /* LaunchScreen.xib */,
 				85A800901AA49B4300098C52 /* Supporting Files */,
@@ -278,6 +283,7 @@
 			files = (
 				85A800961AA49B4300098C52 /* AppDelegate.m in Sources */,
 				85A800B91AA49FEC00098C52 /* AppRootViewController.m in Sources */,
+				85F79DCD1AB91BCE00686BB2 /* TestViewController.m in Sources */,
 				85A800931AA49B4300098C52 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
