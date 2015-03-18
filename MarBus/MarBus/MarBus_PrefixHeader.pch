@@ -1,0 +1,42 @@
+//
+//  MarBus_PrefixHeader.pch
+//  MarBus
+//
+//  Created by YiHai on 15-3-2.
+//  Copyright (c) 2015年 YiHai. All rights reserved.
+//
+
+#ifndef MarBus_MarBus_PrefixHeader_pch
+#define MarBus_MarBus_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifndef __OPTIMIZE__
+#define MyLog(...) NSLog(__VA_ARGS__)
+#else
+#define MyLog(...){}
+#endif
+
+
+#ifdef DEBUG
+#define DLog(...) NSLog(__VA_ARGS__)
+#else
+#define DLog(...) /* */
+#endif
+#define ALog(...) NSLog(__VA_ARGS__)
+
+
+
+#define userDefault  [NSUserDefaults standardUserDefaults]
+
+#define BundleVersion       [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+
+#define MainWidth         [UIScreen mainScreen].bounds.size.width
+#define MainHeight       [UIScreen mainScreen].bounds.size.height
+
+#define mySize [UIScreen mainScreen].bounds
+#define customViewHeight 40
+#define spaceCellX 10
+#define IOS_VERSION      [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#endif
